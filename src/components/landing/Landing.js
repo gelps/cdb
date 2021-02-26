@@ -1,9 +1,9 @@
-import './App.css';
-import video1 from './hpv.mp4';
+import './Landing.css';
+import video1 from '../../assets/hpv.mp4';
 
-function App() {
+function Landing() {
     return (
-        <div className="App">
+        <div className="Landing">
             <div className="align-container">
                 <div className="intro">
                     <video className="video" src={video1} width="2000" height="2000" autoplay="true" loop muted playsinline />
@@ -12,7 +12,7 @@ function App() {
                         <p class="lead">C'est mon carnet de bord</p>
                         <h4 class="my-4">
                             <p class="lead">
-                                <a class="btn btn-outline-success btn-lg" href="./cdb-intro.html" role="button">Commencer ici</a>
+                                <a class="btn btn-outline-success btn-lg" href="/accueil" role="button">Commencer ici</a>
                             </p>
                         </h4>
                     </div>
@@ -22,4 +22,4 @@ function App() {
     )
 }
 
-export default App;
+export default Landing;
