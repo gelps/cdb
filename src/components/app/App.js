@@ -6,7 +6,7 @@ import Path from '../../path';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div>
                 <Switch>
                     <Route path={Path.LANDING} exact component={Landing} />
