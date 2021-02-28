@@ -1,6 +1,6 @@
 const Path = {
     LANDING: "/",
-    ACCUEIL: "/cdb/accueil",
+    ACCUEIL: "/accueil",
     SEM8: "/cdb/reflexion/semaine8",
     SEM9: "/cdb/reflexion/semaine9",
     SEM10: "/cdb/reflexion/semaine10",
