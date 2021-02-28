@@ -1,5 +1,7 @@
 import './Landing.css';
 import video1 from '../../assets/hpv.mp4';
+import Path from '../../path.js';
+import AlertMobile from './AlertMobile';
 
 function Landing() {
     return (
@@ -12,10 +14,15 @@ function Landing() {
                         <p class="lead">C'est mon carnet de bord</p>
                         <h4 class="my-4">
                             <p class="lead">
-                                <a class="btn btn-outline-success btn-lg" href="/accueil" role="button">Commencer ici</a>
+                                <a class="btn btn-outline-success btn-lg" href={Path.ACCUEIL} role="button">Commencez ici</a>
                             </p>
                         </h4>
                     </div>
+                    <span class="align-baseline">
+                        <div>
+                            <AlertMobile />
+                        </div>
+                    </span>
                 </div>
             </div>
         </div>
