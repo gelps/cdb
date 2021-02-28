@@ -5,7 +5,7 @@ import Path from '../../path';
 
 function App() {
     return (
-        <BrowserRouter basename="/cdb">
+        <BrowserRouter>
             <div>
                 <Switch>
                     <Route path={Path.LANDING} exact component={Landing} />
