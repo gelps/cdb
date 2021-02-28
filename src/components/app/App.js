@@ -6,7 +6,7 @@ import Path from '../../path';
 
 function App() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        // <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div>
                 <Switch>
                     <Route path={Path.LANDING} exact component={Landing} />
@@ -14,7 +14,7 @@ function App() {
                     <Route path={Path.SEM8} exact render={() => (<Reflexion semaine={"sem8"} />)} />
                 </Switch>
             </div>
-        </BrowserRouter>
+        // </BrowserRouter>
     )
 }
 
