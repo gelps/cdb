@@ -10,9 +10,9 @@ import Path from '../../path';
 
 function Accueil() {
     return (
-        <div>
+        <div className="Accueil">
             <Navigation/>
-            <div className="Accueil">
+            <div>
                 <Carousel className="carousel">
                     <Carousel.Item>
                         <div className="img">

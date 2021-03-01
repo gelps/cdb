@@ -1,11 +1,37 @@
 .Reflexion {
-    min-height: 100vh;
     max-height: 100vh;
-    min-width: 100vh;
-    max-width: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    background-color: transparent;
 }
 
 .header-img {
     max-height: 65vh;
     max-width: 100vw;
+}
+
+.jumbotron {
+    top: 0;
+    background-color: transparent;
+}
+
+.divider {
+    background-color: gray;
+    min-height: 0.2vh;
+    max-height: 0.2vh;
+    min-width: 85vw;
+    max-width: 85vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.timestm {
+    top: 1vh;
+    max-width: 275px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+.reftext {
+    max-width: 80vw;
 }
