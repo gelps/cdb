@@ -1,17 +1,17 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import './Navigation.css';
+import './NavigationCarnet.css';
 import Path from '../../path';
 
-const Navigation = () => {
+const NavigationCarnet = ({ semaine, lienPrev, lienNext }) => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="success" variant="light" className="navigation">
+        <Navbar collapseOnSelect expand="lg" bg="success" variant="light" sticky="top">
             <div className="custom-font">
                 <Navbar.Brand href={Path.ACCUEIL}>Carnet de bord</Navbar.Brand>
             </div>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav mr-auto">
+            <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="nav">
                     <NavDropdown title="Réflexion (a)" id="collasible-nav-dropdown">
                         <NavDropdown.Item href={Path.SEM8}>Réflexion Semaine 8</NavDropdown.Item>
@@ -45,4 +45,4 @@ const Navigation = () => {
     );
 };
 
-export default Navigation;
+export default NavigationCarnet;

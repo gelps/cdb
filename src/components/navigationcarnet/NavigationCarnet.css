@@ -1,0 +1,26 @@
+.mr-auto {
+    background-color: blue;
+    color: orange;
+    font-family: 'Helvetica';
+    min-height: 5vh;
+    max-height: 5vh;
+}
+
+.custom-font {
+    font-family: 'Brush Script MT', cursive, monospace;
+    font-size: 120%;
+}
+
+.nav {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    align-self: center;
+    position: relative;
+    min-width: 50vw;
+}
+
+.right-bar {
+    margin-left: auto;
+    margin-right: 0;
+    font-family: 'Helvetica', sans-serif;
+}

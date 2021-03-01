@@ -1,0 +1,15 @@
+.nav-toast {
+    position: fixed;
+    bottom: 0;
+    top: 10vh;
+    right: 1vw;
+}
+
+.mr-auto {
+    background-color: white;
+    color: black;
+    vertical-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Helvetica', sans-serif;
+}

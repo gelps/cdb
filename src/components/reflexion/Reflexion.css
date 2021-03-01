@@ -1,0 +1,11 @@
+.Reflexion {
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 100vh;
+    max-width: 100vh;
+}
+
+.header-img {
+    max-height: 65vh;
+    max-width: 100vw;
+}
