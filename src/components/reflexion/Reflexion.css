@@ -32,6 +32,13 @@
     background-color: lightgray;
 }
 
+.timestm-mecredi {
+    top: 1vh;
+    max-width: 305px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
 .reftext {
     max-width: 80vw;
 }
