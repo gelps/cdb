@@ -34,7 +34,7 @@ function Reflexion8() {
                             I came up with that answer, figure out why the right answer is the right anwser, and make the necessary 
                             adjustments to ensure that the next time I will be able to come up with the correct answer.
                         </p>
-                        <p className="timestm-mecredi"> mercredi, 3 mars 2021 20:00 EST</p>
+                        <p className="timestm-305"> mercredi, 3 mars 2021 20:00 EST</p>
                         <p className="reftext"> 
                             Since the last update, I have practiced with some Kahoots. Unfortunately I have been a little busy these past few
                             days so I'm not sure how much time I will be able to spend on French but hopefully later as soon as I finish writing
@@ -44,6 +44,13 @@ function Reflexion8() {
                             Today my goals are to see if I corrected my mistakes from the first time I took the practice midterm, hopefully memorize some
                             useful irregular conjugations, and hopefully (if I have time) I would like to expand my vocabulary a bit. Otherwise I might
                             dedicate some time tommorow to doing so.
+                        </p>
+                        <p className="timestm-285"> samedi, 6 mars 2021 09:00 EST</p>
+                        <p className="reftext">
+                            This is definitely going to be a little embarrassing if I did badly on the midterm, but I thought it was actually
+                            pretty easy - much easier than the practice ones. The hardest question was definitely the oral comprehension; I thought 
+                            that part was harder than the first quiz because the anwsers wern't word for word but I still think I managed to 
+                            get most of them.
                         </p>
 
                     </Container>

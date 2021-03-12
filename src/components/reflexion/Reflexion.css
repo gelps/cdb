@@ -32,9 +32,16 @@
     background-color: lightgray;
 }
 
-.timestm-mecredi {
+.timestm-305 {
     top: 1vh;
     max-width: 305px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
+}
+
+.timestm-285 {
+    top: 1vh;
+    max-width: 285px;
     font-family: 'Courier New', Courier, monospace;
     background-color: lightgray;
 }
