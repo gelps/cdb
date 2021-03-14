@@ -11,7 +11,7 @@ function Reflexion9() {
     return (
         <div>
             <NavigationCarnet />
-            <NavToast semaine={"Semaine 9"} liensuv={Path.SEM9APP} lienpre={Path.SEM8MATSUP} />
+            <NavToast semaine={"Semaine 9"} liensuv={Path.SEM9APP} lienpre={Path.SEM8} />
             <div className="Reflexion">
                 <img className="header-img" src={sem9Img} alt="sem9" />
                 <Jumbotron fluid>

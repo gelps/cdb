@@ -10,7 +10,7 @@ function MatSup8() {
         <div>
             <NavigationCarnet/>
             <NavToast semaine={"Semaine 8"} liensuv={Path.SEM9} lienpre={Path.SEM8PARA}/>
-            <div className="MatSup">
+            <div>
                 <img className="header-img" src={sem8Img} alt="sem8" />
             </div>
         </div>

@@ -13,7 +13,7 @@ const Path = {
     SEM8MATSUP: "/cdb/materiels-supplementaires/semaine8",
     SEM9MATSUP: "/cdb/materiels-supplementaires/semaine9",
     SEM10MATSUP: "/cdb/materiels-supplementaires/semaine10",
-    
+    GITHUBPROJ: "https://github.com/em7e/cdb"
  };
  Object.freeze(Path);
 
