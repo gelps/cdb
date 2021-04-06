@@ -58,6 +58,10 @@ function Reflexion9() {
                             habit of drinking Bubble Tea/Milkshakes everyday for the past 6 months or so and I found that assigning myself the task of drinking 1 glass of water 4 times everyday
                             was actually really effective because now everytime I want to drink something, my first instinct is to drink a glass of water so I can cross off another task from the list.
                         </p>
+                        <p className="reftext">
+                            The project has been going okay. It doesn't seem like anyone is too into it though so I think we will just try to throw something
+                            together and hope for the best.
+                        </p>
                     </Container>
                 </Jumbotron>
             </div>

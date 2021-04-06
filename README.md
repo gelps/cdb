@@ -2,7 +2,7 @@
 
 #### _FREN 102, 2020W2_
 
-View the project on Github pages: https://em7e.github.io/cdb/.
+View the project on Github pages: https://gelps.github.io/cdb/.
 
 This "carnet de bord" is a journal that details some of my experiences and efforts learning the French language from January to April 2021.
 

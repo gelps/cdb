@@ -21,12 +21,12 @@ const Navigation = () => {
                     <NavDropdown title="Application (b)" id="collasible-nav-dropdown">
                         <NavDropdown.Item className="disabled" href={Path.SEM8APP}>Application Semaine 8</NavDropdown.Item>
                         <NavDropdown.Item href={Path.SEM9APP}>Application Semaine 9</NavDropdown.Item>
-                        <NavDropdown.Item href={Path.SEM10APP}>Application Semaine 10</NavDropdown.Item>
+                        <NavDropdown.Item className="disabled" href={Path.SEM10APP}>Application Semaine 10</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Paragraphe (c)" id="collasible-nav-dropdown">
                         <NavDropdown.Item className="disabled" href={Path.SEM8PARA}>Paragraphe Semaine 8</NavDropdown.Item>
                         <NavDropdown.Item href={Path.SEM9PARA}>Paragraphe Semaine 9</NavDropdown.Item>
-                        <NavDropdown.Item href={Path.SEM10PARA}>Paragraphe Semaine 10</NavDropdown.Item>
+                        <NavDropdown.Item className="disabled" href={Path.SEM10PARA}>Paragraphe Semaine 10</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Matériels Supplémentaires (d)" id="collasible-nav-dropdown">
                         <NavDropdown.Item className="disabled" href={Path.SEM8MATSUP}>Matériels Supplémentaires Semaine 8</NavDropdown.Item>

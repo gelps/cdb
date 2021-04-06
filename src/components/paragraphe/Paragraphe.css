@@ -1,0 +1,9 @@
+.divider {
+    background-color: gray;
+    min-height: 0.2vh;
+    max-height: 0.2vh;
+    min-width: 85vw;
+    max-width: 85vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
